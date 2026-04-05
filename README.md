@@ -4,9 +4,11 @@
 This is my second data analysis project, and it represents a significant step forward from my first.
 I choose this dataset because I believe there is always a story hidden behind numbers and tables —
 and my goal as an analyst is to find it.
+
 I am someone who is always ready to grow, always curious about new ways to uncover insights,
 and always eager to learn new techniques. This project reflects exactly that mindset.
 Compared to my first project (Telco Churn), here I challenged myself with:
+
 • More complex SQL techniques (Window Functions, CTEs, Subqueries, LOD expressions)
 • A larger dataset (1M+ rows)
 • A more polished Tableau dashboard
@@ -17,6 +19,7 @@ Dataset: UCI Online Retail II — Kaggle
 Dashboard: View on Tableau Public 
 
 🧠 My Analytical Approach
+
 Before writing any query I asked myself:
 "What would a business owner actually need to know about their sales?"
 I structured the analysis in chapters — each chapter builds on the previous one,
@@ -38,6 +41,7 @@ Which customer segments need different retention strategies?
 
 
 📊 Key Findings
+
 💰 Business Health
 The business generated $17.7M over 2 years (2009–2011) across 36,969 transactions
 with an average order value of $22 — confirming a healthy, active operation.
