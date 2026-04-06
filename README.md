@@ -1,25 +1,22 @@
 🛒 Online Retail Sales Analysis
-
 📌 About This Project
 This is my second data analysis project, and it represents a significant step forward from my first.
-I choose this dataset because I believe there is always a story hidden behind numbers and tables —
+I chose this dataset because I believe there is always a story hidden behind numbers and tables —
 and my goal as an analyst is to find it.
-
 I am someone who is always ready to grow, always curious about new ways to uncover insights,
 and always eager to learn new techniques. This project reflects exactly that mindset.
 Compared to my first project (Telco Churn), here I challenged myself with:
 
-• More complex SQL techniques (Window Functions, CTEs, Subqueries, LOD expressions)
-• A larger dataset (1M+ rows)
-• A more polished Tableau dashboard
-• Deeper business thinking — not just "what happened" but "why" and "what should the business do"
+More complex SQL techniques (Window Functions, CTEs, Subqueries, LOD expressions)
+A larger dataset (1M+ rows)
+A more polished Tableau dashboard
+Deeper business thinking — not just "what happened" but "why" and "what should the business do"
 
 Tools used: PostgreSQL · Tableau
 Dataset: UCI Online Retail II — Kaggle
-Dashboard: View on Tableau Public 
+Dashboard: View on Tableau Public
 
 🧠 My Analytical Approach
-
 Before writing any query I asked myself:
 "What would a business owner actually need to know about their sales?"
 I structured the analysis in chapters — each chapter builds on the previous one,
@@ -41,7 +38,6 @@ Which customer segments need different retention strategies?
 
 
 📊 Key Findings
-
 💰 Business Health
 The business generated $17.7M over 2 years (2009–2011) across 36,969 transactions
 with an average order value of $22 — confirming a healthy, active operation.
@@ -59,21 +55,14 @@ Active from day 1 to the last day of the dataset with 1,058 transactions (44/mon
 This pattern suggests wholesale/B2B buyers, not typical retail consumers
 
 🎯 Customer Segmentation
-SegmentCustomersShare 
-🟢Occasional (<$1K)3,13153% ; 
-🟡Regular ($1K–$10K)2,48042% ; 
-🔴VIP (>$10K)2675%.
+SegmentCustomersShare🟢 Occasional (<$1K)3,13153%🟡 Regular ($1K–$10K)2,48042%🔴 VIP (>$10K)2675%
 Only 5% are VIP — yet this small group likely drives the majority of revenue (80/20 rule).
-
 🌍 Revenue by Country
 United Kingdom dominates with $14.7M — over 85% of total revenue.
 Top international markets: EIRE ($621K), Netherlands ($554K), Germany ($431K).
 
 💡 Business Recommendations
-PriorityRecommendationBased On
-🔴 HighMaximize Q4 inventory and marketing spend7/25 above-average months all in Q4🔴 HighCreate VIP retention program5% of customers drive majority of revenue
-🟡 MediumLaunch loyalty program for Regular segment42% of customers close to VIP threshold🟡 MediumRe-engagement campaigns for Occasional buyers53% at high churn risk
-🟢 LowExplore international expansionStrong EIRE and Netherlands performance
+PriorityRecommendationBased On🔴 HighMaximize Q4 inventory and marketing spend7/25 above-average months all in Q4🔴 HighCreate VIP retention program5% of customers drive majority of revenue🟡 MediumLaunch loyalty program for Regular segment42% of customers close to VIP threshold🟡 MediumRe-engagement campaigns for Occasional buyers53% at high churn risk🟢 LowExplore international expansionStrong EIRE and Netherlands performance
 
 🛠️ SQL Techniques Demonstrated
 TechniqueUsed ForCTE (Common Table Expression)Data cleaning + chained queriesWindow Function RANK()Customer ranking with tie supportWindow Function LAG()Month-over-month revenue comparisonComplex CASE WHENCustomer segmentation by value tierSubqueryFinding months above average revenueLOD ExpressionCustomer-level aggregation in TableauIncremental DebuggingIdentifying and fixing logic errorsHypothesis TestingValidating assumptions with data
@@ -99,4 +88,4 @@ I also learned the difference between writing a query that works and writing a q
 comments, structure, and storytelling matter as much as the SQL itself.
 Most importantly: I am always ready to learn, always curious, and always growing. 💪
 
-Project by [Mariia Pron] · [LinkedIn URL] · Tableau Public
+Project by [Your Name] · [LinkedIn URL] · Tableau Public
